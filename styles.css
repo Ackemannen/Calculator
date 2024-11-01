@@ -79,19 +79,21 @@ button {
     background-color: #6a6a6a;
 }
 
-/* width */
 ::-webkit-scrollbar {
-    width: 6px;
+    height: 11px;
     background-color: #8a8a8a;
+    border-radius: 50%;
   }
   
 ::-webkit-scrollbar-track {
     background-color: #8a8a8a;
+    border-radius: 50%;
 }
   
   /* Handle */
 ::-webkit-scrollbar-thumb {
     background-color: #6a6a6a;
+    border-radius: 15px;
 }
 
 /* Optimimizing for smaller screens */
